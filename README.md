@@ -46,23 +46,6 @@ Nota: el codigo en sql para crear la basedatos y la tabla se encuentra en db/dat
    - `PUT /contacts/:id`: Actualizar un contacto existente.
    - `DELETE /contacts/:id`: Eliminar un contacto.
 
-### Formato de Datos
-
-6. La API espera y devuelve datos en formato JSON.
-
-### Ejemplo de Creación de Contacto
-
-```json
-{
-  "identification_number": "12345",
-  "first_name": "Juan",
-  "second_name": "Carlos",
-  "first_lastname": "Gómez",
-  "second_lastname": "López",
-  "phone_numbers": '["123-456-7890", "987-654-3210"]',
-  "email_addresses": '["juan@gmail.com", "juan.carlos@example.com"]'
-}
-
 7.Clona este repositorio en tu máquina local utilizando Git:
 git clone https://github.com/TuUsuario/NombreDelRepositorio.git
 
@@ -82,6 +65,24 @@ DB_DATABASE=tu-nombre-de-base-de-datos
 
 11.Inicia el servidor de desarrollo:
 npm start
+
+### Formato de Datos
+
+12. La API espera y devuelve datos en formato JSON.
+
+### Ejemplo de Creación de Contacto
+
+```json
+{
+  "identification_number": "12345",
+  "first_name": "Juan",
+  "second_name": "Carlos",
+  "first_lastname": "Gómez",
+  "second_lastname": "López",
+  "phone_numbers": '["123-456-7890", "987-654-3210"]',
+  "email_addresses": '["juan@gmail.com", "juan.carlos@example.com"]'
+}
+
 
 
 
