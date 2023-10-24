@@ -58,10 +58,11 @@ npm install
 10.Crea un archivo .env en la raíz del proyecto y configura las variables
 de entorno necesarias. Asegúrate de configurar la información de conexión
 a tu base de datos MySQL:
-DB_HOST=tu-host-de-base-de-datos
-DB_USER=tu-usuario-de-base-de-datos
-DB_PASSWORD=tu-contraseña-de-base-de-datos
-DB_DATABASE=tu-nombre-de-base-de-datos
+
+- DB_HOST=tu-host-de-base-de-datos
+- DB_USER=tu-usuario-de-base-de-datos
+- DB_PASSWORD=tu-contraseña-de-base-de-datos
+- DB_DATABASE=tu-nombre-de-base-de-datos
 
 11.Inicia el servidor de desarrollo:
 npm start
